@@ -128,7 +128,7 @@ function AppNavigation() {
         })}
       >
         <Tab.Screen name="Explore" component={ExploreStackScreen} />
-        <Tab.Screen name="Trips" component={Trips} />
+        <Tab.Screen name="Trips" component={Detail} />
         <Tab.Screen name="Profile" component={ProfileStackScreen}/>
       </Tab.Navigator>
     </NavigationContainer> ) : (
